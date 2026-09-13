@@ -85,11 +85,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "ar.com.softwareperonista.Rockarrolla": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "ar.com.tuxguitar.TuxGuitar": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
@@ -214,7 +209,6 @@
     },
     "cc.nift.nsm": {
         "stable": {
-            "finish-args-flatpak-spawn-access": "the app predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -246,8 +240,7 @@
     },
     "chat.delta.desktop": {
         "*": {
-            "appid-ends-with-lowercase-desktop": "app-id predates this linter rule",
-            "finish-args-host-filesystem-access": "Predates the linter rule"
+            "appid-ends-with-lowercase-desktop": "app-id predates this linter rule"
         }
     },
     "chat.iamb.iamb": {
@@ -742,8 +735,7 @@
     "com.github.IsmaelMartinez.teams_for_linux": {
         "*": {
             "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-home-filesystem-access": "Predates the linter rule",
-            "finish-args-login1-system-talk-name": "Electron's powerMonitor needs PrepareForSleep from login1 for its resume handlers; no portal exposes this signal."
+            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "com.github.KRTirtho.Spotube": {
@@ -1041,8 +1033,7 @@
     },
     "com.github.gijsgoudzwaard.image-optimizer": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-home-filesystem-access": "Predates the linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.github.git_cola.git-cola": {
@@ -1314,8 +1305,7 @@
     },
     "com.github.nrittsti.NTag": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.github.ojubaorg.Othman": {
@@ -2221,11 +2211,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "com.sayonara_player.Sayonara": {
-        "*": {
-            "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
     "com.scanoss.sbom-workbench": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
@@ -2961,11 +2946,6 @@
             "finish-args-unnecessary-xdg-config-cosmic-rw-access": "Required to listen for changes in the host and write app configuration files"
         }
     },
-    "dev.vencord.Vesktop": {
-        "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Running through native Wayland instead of X11 causes issues for a considerable number of users, but Wayland access is still needed for pipewire screen capturing"
-        }
-    },
     "dev.zed.Zed": {
         "*": {
             "finish-args-flatpak-spawn-access": "application won't open without this permission set; also needed to spawn several tools and commands from the host",
@@ -3048,9 +3028,7 @@
     },
     "eu.skribisto.skribisto": {
         "stable": {
-            "finish-args-flatpak-spawn-access": "the app predates this linter rule",
-            "finish-args-home-filesystem-access": "Predates the linter rule",
-            "finish-args-own-name-wildcard-com.druide.antidote": "Predates the linter rule"
+            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "eu.vcmi.VCMI": {
@@ -3438,7 +3416,6 @@
         "stable": {
             "finish-args-flatpak-appdata-folder-org.DolphinEmu.dolphin-emu-config-dolphin-emu-create-access": "this program needs to be able to access the Dolphin Flatpak's config and data directories for configuration and Mii/mod management",
             "finish-args-flatpak-appdata-folder-org.DolphinEmu.dolphin-emu-data-dolphin-emu-create-access": "this program needs to be able to access the Dolphin Flatpak's config and data directories for configuration and Mii/mod management",
-            "finish-args-flatpak-spawn-access": "this program needs to be able to run host commands as specified in the manifest's wrapper scripts to support Flatpak and native Dolphin installations",
             "finish-args-unnecessary-xdg-config-dolphin-emu-rw-access": "this program needs to be able to read and modify host Dolphin config files (e.g. for graphics settings)",
             "finish-args-unnecessary-xdg-data-dolphin-emu-rw-access": "this program needs to be able to read and modify host Dolphin Mii and game/mod data files"
         }
@@ -4083,11 +4060,6 @@
     "io.github.mhogomchungu.sirikali": {
         "stable": {
             "finish-args-flatpak-spawn-access": "this app is a front end to gocryptfs,securefs and cryfs. These tools do folder based encryption and they depend on fusermount located at /bin to mount and unmount their file systems"
-        }
-    },
-    "io.github.microgamercz.piki": {
-        "stable": {
-            "finish-args-plasmashell-talk-name": "Predates the linter rule"
         }
     },
     "io.github.mightycreak.Diffuse": {
@@ -4892,7 +4864,6 @@
     "io.otsaloma.gaupol": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
@@ -5042,7 +5013,7 @@
             "finish-args-has-socket-ssh-auth": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule",
             "flathub-json-automerge-enabled": "Predates the linter rule",
-	    "finish-args-own-name-org.freedesktop.StatusNotifierItem-2-1": "Needed in order for the obsidian-tray plugin to work on KDE systems: https://github.com/flathub/md.obsidian.Obsidian/issues/555"
+            "finish-args-own-name-org.freedesktop.StatusNotifierItem-2-1": "Needed in order for the obsidian-tray plugin to work on KDE systems: https://github.com/flathub/md.obsidian.Obsidian/issues/555"
         }
     },
     "me.ahola.aphototoollibre": {
@@ -7715,11 +7686,6 @@
             "flathub-json-automerge-enabled": "Predates the linter rule"
         }
     },
-    "org.neverball.Neverball": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "org.nickvision.cavalier": {
         "*": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
@@ -8482,7 +8448,6 @@
     },
     "pm.mirko.Atoms": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-flatpak-spawn-access": "the app predates this linter rule"
         }
     },
